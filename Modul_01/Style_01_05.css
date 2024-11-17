@@ -1,0 +1,60 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 30px;
+    padding: 0;
+    color: #333;
+}
+
+/* Gaya untuk fieldset dan tabel */
+fieldset {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+/* Gaya untuk input, textarea, dan select */
+input[type="text"], input[type="date"], input[type="number"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Menyertakan padding dalam lebar elemen */
+}
+
+/* Gaya untuk tombol submit dan reset */
+input[type="submit"], input[type="reset"] {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk radio button */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Gaya untuk caption atau heading tabel */
+td:first-child {
+    font-weight: bold;
+}

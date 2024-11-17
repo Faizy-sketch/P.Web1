@@ -1,0 +1,70 @@
+/* Gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Gaya untuk heading utama */
+font[size="7"] {
+    color: navy;
+    font-weight: bold;
+}
+
+/* Gaya untuk heading sub */
+font[size="5"] {
+    color: darkslategray;
+    font-style: italic;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 3px;
+    background-color: navy;
+}
+
+/* Gaya untuk artikel */
+article {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Gambar di artikel */
+article img {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Heading di dalam artikel */
+article div {
+    font-weight: bold;
+    margin-top: 15px;
+    color: darkblue;
+}
+
+/* Daftar tidak berurutan */
+article ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* Jenis daftar berdasarkan tipe */
+ul[type="circle"] {
+    list-style-type: circle;
+}
+
+ul[type="square"] {
+    list-style-type: square;
+}
+
+/* Gaya untuk sertifikasi */
+article img:last-of-type {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
